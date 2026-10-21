@@ -1,0 +1,12 @@
+{
+  "candidate": "EmbodiedGuard-v3",
+  "base": "EmbodiedGuard-v2",
+  "baseline_mapping_sha256": "ba15385a2d011d4582c541ecc33b6c098d9ec7fea46401fc5f238a545d17a929",
+  "new_modules": ["embodiedguard/feedback.py", "embodiedguard/execution_bundle.py"],
+  "adapted_modules": ["embodiedguard/mcp_server.py", "run_mcp.py"],
+  "protected_unchanged_modules": ["control.py", "planning.py", "state.py", "safety.py", "sim.py", "execution.py", "timing.py", "recovery.py"],
+  "behavior": "Optional explicit inspect_on_arrival bundles the existing checked executor and inspector; no autonomous planning or recovery inside the bundle.",
+  "evidence": "Full raw result and exact model projection are logged separately; no rounding of measurements, no invented state, no changes to historic evidence.",
+  "clock": "Fixed-step motion plus measured real between-tool idle after first planning, unchanged.",
+  "scope": "Synthetic 2D Ackermann kinematics only. Not physical robotics, vehicle dynamics, MHS or detection accuracy."
+}

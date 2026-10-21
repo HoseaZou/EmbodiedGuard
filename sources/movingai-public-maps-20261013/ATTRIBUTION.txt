@@ -1,0 +1,7 @@
+Contains information from Moving AI Lab 2D Grid Benchmarks, which is made available under the ODC Attribution License.
+Database: https://www.movingai.com/benchmarks/grids.html
+License: https://opendatacommons.org/licenses/by/1-0/
+Reference: N. Sturtevant, Benchmarks for Grid-Based Pathfinding, IEEE Transactions on Computational Intelligence and AI in Games 4(2), 144-148, 2012.
+Selected artificial maps: 16room_000, 32room_000, maze512-16-0.
+Downloaded map and scenario contents are unchanged. Metric scales and transformed paths in the audit are derived data.
+These maps are artificial benchmarks and are not real robot sensor recordings.

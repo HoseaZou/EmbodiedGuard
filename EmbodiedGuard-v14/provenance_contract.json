@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "base": "EmbodiedGuard-next",
+  "base_manifest": "reports/implementation/20261011-recovery-contract/base-source-manifest.json",
+  "adapted": [
+    "embodiedguard/mcp_server.py",
+    "embodiedguard/execution.py"
+  ],
+  "added": [
+    "embodiedguard/recovery.py",
+    "tests/test_recovery_contract.py"
+  ],
+  "unchanged_physical_core": [
+    "embodiedguard/control.py",
+    "embodiedguard/planning.py",
+    "embodiedguard/state.py",
+    "embodiedguard/safety.py",
+    "embodiedguard/sim.py"
+  ],
+  "scope": "MCP contract and deterministic recovery accounting; no new motion model or Agent model",
+  "engineering_direct_mission_budget_unchanged": true,
+  "old_evidence_regraded": false
+}

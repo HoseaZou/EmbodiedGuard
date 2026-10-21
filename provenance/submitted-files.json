@@ -1,0 +1,451 @@
+{
+  "archive_sha256": "e20e22a2266a29f97d331fcc7955cbacfc5c299432cd7525ff72f867520b7eb7",
+  "selection": "All app files excluding runtime outputs/cache; required public-map directory; original r3 prompt",
+  "files": {
+    "EmbodiedGuard-v14/.gitignore": {
+      "sha256": "b365a7bcadd69fe747a498c0de8d8525ad0e28490642ce9c08808caa2bf5a3d4",
+      "bytes": 75
+    },
+    "EmbodiedGuard-v14/embodiedguard/__init__.py": {
+      "sha256": "76a36aafcf0d2f88e85ab48b812a2342310140373da646f56da5bb7c5f6c1abd",
+      "bytes": 105
+    },
+    "EmbodiedGuard-v14/embodiedguard/action_contract.py": {
+      "sha256": "680d44a8bd82396d54788846f35009dff503ea8ad09eee544c36d1160fb6ffb3",
+      "bytes": 5097
+    },
+    "EmbodiedGuard-v14/embodiedguard/cli.py": {
+      "sha256": "4d7529615b4bd8c29a2673786570fa05a7313d9d000ac89096cff4fffe06f486",
+      "bytes": 7787
+    },
+    "EmbodiedGuard-v14/embodiedguard/control.py": {
+      "sha256": "42f94d064499431dd26055dabfac1fc580fd7cb94b6f26fde3d42402d88b67da",
+      "bytes": 11617
+    },
+    "EmbodiedGuard-v14/embodiedguard/decision_feedback.py": {
+      "sha256": "04b8d6932334ffa6330c6f9ec1758cd1c45a2320e037efef9e12241c14ed36f5",
+      "bytes": 7624
+    },
+    "EmbodiedGuard-v14/embodiedguard/efficiency.py": {
+      "sha256": "001df5f19bdfc4011e648e5860c549943bfe331e3b62fb05dacdeb0fd6630f50",
+      "bytes": 17463
+    },
+    "EmbodiedGuard-v14/embodiedguard/evidence.py": {
+      "sha256": "1c7186b30fbd2dd89786ae8f5ac4df2bf8570496f228d8b2cdf71af9d1a2aa6d",
+      "bytes": 15202
+    },
+    "EmbodiedGuard-v14/embodiedguard/execution.py": {
+      "sha256": "c17b1103149a32eec264ba4eca68bdffa20dcf0abb8825f75c503aed5bcf41e6",
+      "bytes": 37757
+    },
+    "EmbodiedGuard-v14/embodiedguard/execution_bundle.py": {
+      "sha256": "d57f1546a13d4951ee0eb5fb2b6dae9ef23c767d59b723f516768c66cea431f0",
+      "bytes": 2400
+    },
+    "EmbodiedGuard-v14/embodiedguard/experiments.py": {
+      "sha256": "5af70d1e2e14e375a3c06a2468d15e2d0004e7b06e73aaf9e59e024a4b57438f",
+      "bytes": 17002
+    },
+    "EmbodiedGuard-v14/embodiedguard/feedback.py": {
+      "sha256": "fde4989eafdad0bd9db069175beb66b654f46a7069091c294d9ee686f35a6d16",
+      "bytes": 5259
+    },
+    "EmbodiedGuard-v14/embodiedguard/global_planning.py": {
+      "sha256": "a4f935f472931726c286d3eff73faf9110d5d7952b63ba446cdfcc344e4b2359",
+      "bytes": 13586
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/__init__.py": {
+      "sha256": "beee13a0bf8c95a35328f630acaacd866278fe24ed079de1002e844a0e11b40e",
+      "bytes": 60
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/backend/__init__.py": {
+      "sha256": "beee13a0bf8c95a35328f630acaacd866278fe24ed079de1002e844a0e11b40e",
+      "bytes": 60
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/backend/carla_control_bridge.py": {
+      "sha256": "002e59786ffece43eb541d139ac250461a5bdbd1aca5bd440f6677cd1c8f47c7",
+      "bytes": 6480
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/backend/carla_pid_controller.py": {
+      "sha256": "6c888346a3b771c61cb4e7210e5dd1428ae9a1b183df777b3df2438c13afc0df",
+      "bytes": 26653
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/backend/route_context.py": {
+      "sha256": "174694aeb373a11acd585f2efc0fcd768da73ea647b96505d8f734fce5a893e4",
+      "bytes": 31331
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/backend/route_control_adapter.py": {
+      "sha256": "1c069b88c3953f0c4f31b150ab358fcdd30a3e8c290d705f910c5bddb2d83488",
+      "bytes": 44483
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/pipeline/__init__.py": {
+      "sha256": "beee13a0bf8c95a35328f630acaacd866278fe24ed079de1002e844a0e11b40e",
+      "bytes": 60
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/pipeline/global_route_runtime_adapter.py": {
+      "sha256": "a79f872c996907574dfcf164c0b532a9f7796a4c358335ceb90832fe00698a76",
+      "bytes": 13207
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/route/__init__.py": {
+      "sha256": "beee13a0bf8c95a35328f630acaacd866278fe24ed079de1002e844a0e11b40e",
+      "bytes": 60
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/route/coordinate_adapter.py": {
+      "sha256": "d946938188f2cf1e5b9d375f27ce0a5a7c2641bc78a007a184e2c30f2b8f918e",
+      "bytes": 1324
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/route/route_manager.py": {
+      "sha256": "e963c8bafaba224e68f363bdb83f271992b2da43d504287462c94e09b09a39e9",
+      "bytes": 16448
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/route/route_types.py": {
+      "sha256": "c11707e1a6b242ee764e27503169ae4867c9e37a51a4cecd55eebf8325e5abdf",
+      "bytes": 10797
+    },
+    "EmbodiedGuard-v14/embodiedguard/legacy/route/waypoint_queue.py": {
+      "sha256": "be0ea85c8f9bc144267a11d99b5095cdbaf1e677280618aab182575b86106ebe",
+      "bytes": 10205
+    },
+    "EmbodiedGuard-v14/embodiedguard/map_geometry.py": {
+      "sha256": "544c738cdce3fc2e9a62f8b2de1363564dfb7d722619614cbc1449a3be1ab317",
+      "bytes": 12610
+    },
+    "EmbodiedGuard-v14/embodiedguard/mcp_server.py": {
+      "sha256": "eb677341c9b4d4c5a0fe8ab726b80a11dcef2369215335303bec764d9db8df59",
+      "bytes": 22694
+    },
+    "EmbodiedGuard-v14/embodiedguard/motion_faults.py": {
+      "sha256": "27f560786ac4b1e598e86901971057c0bbe570c9b5fd64d765b57371617fbd71",
+      "bytes": 5366
+    },
+    "EmbodiedGuard-v14/embodiedguard/planning.py": {
+      "sha256": "849a55c16b74f2fc0f125eb2b0a923d019d132a2de3baaff5bad8117405619e5",
+      "bytes": 8088
+    },
+    "EmbodiedGuard-v14/embodiedguard/public_maps.py": {
+      "sha256": "2f67d9ba62aad09a65143d12e48cce081c7a74dd3bde1e105c1d79d73d17b19d",
+      "bytes": 23478
+    },
+    "EmbodiedGuard-v14/embodiedguard/reachability.py": {
+      "sha256": "acf94cec7a137fa3b8bc9a0e525a78178a43e6bdb36eb6f61a9a0fbfc1f04739",
+      "bytes": 3399
+    },
+    "EmbodiedGuard-v14/embodiedguard/recovery.py": {
+      "sha256": "9227e69c268b9345634ea33a65b0d054c372581008484b6436307177a5605a82",
+      "bytes": 3678
+    },
+    "EmbodiedGuard-v14/embodiedguard/replay.py": {
+      "sha256": "ed947a293510d3dffb61629e2ba20f0bc499891cf43b3594632fd4170be35ec6",
+      "bytes": 35558
+    },
+    "EmbodiedGuard-v14/embodiedguard/route_validity.py": {
+      "sha256": "75d14ac23066bc0e8cb29bf14929b8b984414d38f5ea6af3ef5eddec6d9b0607",
+      "bytes": 1021
+    },
+    "EmbodiedGuard-v14/embodiedguard/runtime_final.py": {
+      "sha256": "ef0ca945e57f79cfecb4f0c7ae29a71743b8913c643be388f19a19931955cd69",
+      "bytes": 1545
+    },
+    "EmbodiedGuard-v14/embodiedguard/safety.py": {
+      "sha256": "539d7769e2a4878492920185a3612930a46122e1c6341dd851f9fb028b90cdb3",
+      "bytes": 4400
+    },
+    "EmbodiedGuard-v14/embodiedguard/shadow.py": {
+      "sha256": "f1fa83786bc5c19f8f500e3136626ec0d1a07965e68327e21d628b627ffa9ad6",
+      "bytes": 7497
+    },
+    "EmbodiedGuard-v14/embodiedguard/sim.py": {
+      "sha256": "3d0961b6c2ca4f7be603486c08f5bdf80366b389dfa03dd7017e192a70acf2e9",
+      "bytes": 7054
+    },
+    "EmbodiedGuard-v14/embodiedguard/state.py": {
+      "sha256": "e271a7361fa68889c297e2e6770ee9af426bd1039bc7aab35bdbbd49416c66dc",
+      "bytes": 10105
+    },
+    "EmbodiedGuard-v14/embodiedguard/task_contract.py": {
+      "sha256": "395ff37bb989588c7e57c8db1d20e74a7f9a5c9bf2591affdb82d8415dab7b02",
+      "bytes": 11136
+    },
+    "EmbodiedGuard-v14/embodiedguard/timing.py": {
+      "sha256": "6464e8b12cc684643545a93d4231a53eb4a06cc90c99bc704e314b1cc318ddd5",
+      "bytes": 3808
+    },
+    "EmbodiedGuard-v14/embodiedguard/trajectory_preview.py": {
+      "sha256": "bca1ece889610bf504241e88038181c47a011d773175080813dd422489282123",
+      "bytes": 7689
+    },
+    "EmbodiedGuard-v14/final-launch-manifest.json": {
+      "sha256": "8e773c73641225b2c515008e9af3664d8d95cea14c433a99b777fb416c9e4352",
+      "bytes": 11786
+    },
+    "EmbodiedGuard-v14/prompts/inspection-efficient.md": {
+      "sha256": "6413a564af12c1c3584321533a4c2e9da51f47630c401255d6041fd5fffbdb43",
+      "bytes": 3053
+    },
+    "EmbodiedGuard-v14/prompts/inspection.md": {
+      "sha256": "2d29c0082d6d891236bed14955776c22286983e0ef831568cf0c060a31dd5643",
+      "bytes": 6502
+    },
+    "EmbodiedGuard-v14/provenance_contract.json": {
+      "sha256": "102f8ef5458df2e272fdd077b6877a149f592e9712da943df3b4cd06f88a8edf",
+      "bytes": 734
+    },
+    "EmbodiedGuard-v14/provenance_control.json": {
+      "sha256": "75e5e576232185bbd0631097894a2ab51947a2e6ee0a8a9b195dd020190c37e0",
+      "bytes": 6330
+    },
+    "EmbodiedGuard-v14/provenance_efficiency.json": {
+      "sha256": "b981c0bdc70e9f804d17030728d0b3da5a706f752488d907ab786ce849373809",
+      "bytes": 1010
+    },
+    "EmbodiedGuard-v14/provenance_fixed_profile.json": {
+      "sha256": "a500370cb1eaf1bc186ec38e7b57621ece76abf8bb13d9b9012fcfc209cb5f11",
+      "bytes": 1166
+    },
+    "EmbodiedGuard-v14/provenance_route_reuse.json": {
+      "sha256": "3d09ff58a78be79f8c9e7cd64d157488e1c086b4cf846238b73ebd3044e5ecf6",
+      "bytes": 708
+    },
+    "EmbodiedGuard-v14/provenance_state.json": {
+      "sha256": "1f5ff8d4d00257944e534ef529d60a9645887c0daf2833b0cdd5d0cab60b0f52",
+      "bytes": 2208
+    },
+    "EmbodiedGuard-v14/pyproject.toml": {
+      "sha256": "3abd74a16bc98acbf19cdc068f88e1a29d2ba6f4b774dc84dc7b6b77ef30b1a0",
+      "bytes": 557
+    },
+    "EmbodiedGuard-v14/README-v12.txt": {
+      "sha256": "d8bf7e8c7c41e7dd5882629a13cbc0c6218e21d1273718476fe37d0f0b7622cb",
+      "bytes": 906
+    },
+    "EmbodiedGuard-v14/README-v13.txt": {
+      "sha256": "8becdbf595ba6b438ed0db4add06e71c0dbf874e6e2992af0faf44f4426327db",
+      "bytes": 1748
+    },
+    "EmbodiedGuard-v14/README-v14.txt": {
+      "sha256": "2205e727a41161aace3ffa395f884c5c1de104b4d6df07d284f96cf2bec7c287",
+      "bytes": 3233
+    },
+    "EmbodiedGuard-v14/README-v5.txt": {
+      "sha256": "eb68a4526e4e82e6ed7dce91ec0f7d14461d6941935736e5e930cd58cd061337",
+      "bytes": 4439
+    },
+    "EmbodiedGuard-v14/README-v6.txt": {
+      "sha256": "d3c53cde62174f1d966f4adfe38d7c7866b4cd7299c650611bdb964e90e1f4a5",
+      "bytes": 2186
+    },
+    "EmbodiedGuard-v14/README-v7.txt": {
+      "sha256": "0c3bfa6dc2ea71b2a0086f17922639000c869411d2700d41c11b90890be42e8d",
+      "bytes": 923
+    },
+    "EmbodiedGuard-v14/README-v8.txt": {
+      "sha256": "922335c9ec2a612c045ef4fdd28929fdd59d45a6760f732426b0a29d8ef1b83d",
+      "bytes": 2194
+    },
+    "EmbodiedGuard-v14/README-v9.txt": {
+      "sha256": "43099d0d73b953dffd381928ce9452f8d16930cab298979fedb230a260a3bd2f",
+      "bytes": 3045
+    },
+    "EmbodiedGuard-v14/README.md": {
+      "sha256": "d235bcfd3a47a11654fac620155d6f205fd0dd6190e39e446e1f2a59f2df8808",
+      "bytes": 5915
+    },
+    "EmbodiedGuard-v14/run_checked_final_mcp.py": {
+      "sha256": "fd838255c19c51c6e4bea356664441158033fa1f415a3eac06070901c0fae172",
+      "bytes": 2675
+    },
+    "EmbodiedGuard-v14/run_checked_mcp.py": {
+      "sha256": "074d31025966276b15a8b0b8e90efcfe3990a9b991f533a960db5804eaeffc67",
+      "bytes": 2525
+    },
+    "EmbodiedGuard-v14/run_mcp.py": {
+      "sha256": "c95de9bf343f9607f735314f04519e6c5fb7064094a32db97e3bc141331dae1f",
+      "bytes": 2825
+    },
+    "EmbodiedGuard-v14/run_public_mcp.py": {
+      "sha256": "b5698453d69435cee6f042c3794b430c6913a6f06305780eabf0d1ffaa7174e2",
+      "bytes": 1371
+    },
+    "EmbodiedGuard-v14/scripts/activate-candidate.ps1": {
+      "sha256": "389ec81bc71d23c88ebf8fbf27db19588deee77332514397da922380dbac4365",
+      "bytes": 2379
+    },
+    "EmbodiedGuard-v14/scripts/freeze_candidate.py": {
+      "sha256": "2e51d0a286a8c2b23d3dfd8ec7f2328cb574c4ee91e9734f11b49014d40dd210",
+      "bytes": 3171
+    },
+    "EmbodiedGuard-v14/scripts/verify_sources.py": {
+      "sha256": "78bad2fc672df3e5dcf6a74176a76195698f871ac07feddef33da9c619f0afc1",
+      "bytes": 3309
+    },
+    "EmbodiedGuard-v14/START-HERE-v14.txt": {
+      "sha256": "34946280a2bdebc9900afb166c1a2e0ecebaac80b382ce28461470b84c7f6e19",
+      "bytes": 1937
+    },
+    "EmbodiedGuard-v14/tests/test_budget.py": {
+      "sha256": "6dfb1f04d768d1530ba8a18947287ea7f95834f71c2b63088d9ce128e9e5f000",
+      "bytes": 3353
+    },
+    "EmbodiedGuard-v14/tests/test_compact_evidence.py": {
+      "sha256": "f3cec432eb7233f5170ae45c6ad169dcdc8a50270c84177b1b381201fabdfccb",
+      "bytes": 3427
+    },
+    "EmbodiedGuard-v14/tests/test_compact_feedback.py": {
+      "sha256": "cdb152b193343dd8ae5849fe5d8420b1d65be70cb7aaebadeb05b48b8709cbb1",
+      "bytes": 3476
+    },
+    "EmbodiedGuard-v14/tests/test_completion_budget.py": {
+      "sha256": "702869919b50014f69ca6697545a82f150b8b69787a77bd9864c0bd8b60b93a7",
+      "bytes": 3804
+    },
+    "EmbodiedGuard-v14/tests/test_completion_receipt.py": {
+      "sha256": "5823590524b6033cf38388f99fbcf57f59cad348e0c671b5183791a8b40e46d9",
+      "bytes": 11787
+    },
+    "EmbodiedGuard-v14/tests/test_control.py": {
+      "sha256": "ad55435b107a2d3b19e173d3ed994c28e1c858af65a73fd8a1c2f9e4717ca6f0",
+      "bytes": 5857
+    },
+    "EmbodiedGuard-v14/tests/test_efficiency_profile.py": {
+      "sha256": "b05de0a2a1624c7e69706348a33f17bf9015ad8f705357cc36e13110224e7b7b",
+      "bytes": 12638
+    },
+    "EmbodiedGuard-v14/tests/test_evidence.py": {
+      "sha256": "184db7b1cfd95ca50cacc3f3701a6d3194063402d4a8f336089aa51c94704fac",
+      "bytes": 9147
+    },
+    "EmbodiedGuard-v14/tests/test_execution.py": {
+      "sha256": "ad3d66a5138835045e86c7f3c9284a8fa89daa9b9e58834752ab66742510eabd",
+      "bytes": 3852
+    },
+    "EmbodiedGuard-v14/tests/test_execution_bundle.py": {
+      "sha256": "fe4e84f54c572daf3a27c6ae9fbb7348417e73a44455de16ecce58ccc0db6a01",
+      "bytes": 6260
+    },
+    "EmbodiedGuard-v14/tests/test_execution_safety.py": {
+      "sha256": "0a6ec9d8d0c9f68e2986c0b6caf83a5057180a6c6da60eaca18765a264f0aad1",
+      "bytes": 5051
+    },
+    "EmbodiedGuard-v14/tests/test_experiments.py": {
+      "sha256": "1b858c46b10347dea45c997bd1156a2813ca61ad498ad8456ea487f5efa3b4d6",
+      "bytes": 4655
+    },
+    "EmbodiedGuard-v14/tests/test_fixed_execution_profile.py": {
+      "sha256": "94806471a1ceb3cab35fa36c5e37f6d2ff57731ec8780f5ec6117ea0cf478423",
+      "bytes": 2836
+    },
+    "EmbodiedGuard-v14/tests/test_focused_navigation.py": {
+      "sha256": "6615b4de7eca0dcf35d817016b064e288095ad798450feb4dce49ffb638d8d02",
+      "bytes": 5998
+    },
+    "EmbodiedGuard-v14/tests/test_mcp.py": {
+      "sha256": "378e9dbb5aef80005af656bbc751eef48b0a119ede009390fcae345089d02aa9",
+      "bytes": 13053
+    },
+    "EmbodiedGuard-v14/tests/test_motion_faults.py": {
+      "sha256": "6d60a0937b15947a938bd826ef6335d2baf83cc6a7ac01a986f09906149f7cc2",
+      "bytes": 5593
+    },
+    "EmbodiedGuard-v14/tests/test_navigation_reuse.py": {
+      "sha256": "1cff14ff4e5b14bf279821b670e820d45debe363fb7633b6008200c97d7adb44",
+      "bytes": 9577
+    },
+    "EmbodiedGuard-v14/tests/test_plan_evidence.py": {
+      "sha256": "e646c6081a5d197d47562fd63142f21433bcad1a225d1b6397122d812ad33c1c",
+      "bytes": 3238
+    },
+    "EmbodiedGuard-v14/tests/test_recovery_contract.py": {
+      "sha256": "9a3d1bd1a9db221959b4f2f3519c65fca76a039a81a1241569879db9fef93522",
+      "bytes": 7423
+    },
+    "EmbodiedGuard-v14/tests/test_replay.py": {
+      "sha256": "06c2a8ed511261f3d2223975e72d9b2de3f29a81ee2dfda841654546a6d6a8f5",
+      "bytes": 18195
+    },
+    "EmbodiedGuard-v14/tests/test_route_continuation.py": {
+      "sha256": "68332a5136900a19998b97888ab0474335eed09f84e1e65b208ad71c14370621",
+      "bytes": 1912
+    },
+    "EmbodiedGuard-v14/tests/test_safety.py": {
+      "sha256": "005a5f1eb91aaaa5e9c256c2c2e5289df40475de8f13f244ff04bab215969201",
+      "bytes": 2007
+    },
+    "EmbodiedGuard-v14/tests/test_segment_resume.py": {
+      "sha256": "1c5334d2cca6f148fa4261713fa97789dc71980f5e24b6e1043af727929d0b67",
+      "bytes": 2507
+    },
+    "EmbodiedGuard-v14/tests/test_shadow.py": {
+      "sha256": "4378f7470b9dac53b6bf2ef930e1248c427873fc936d7f2ee08373bc5a2de5ba",
+      "bytes": 8865
+    },
+    "EmbodiedGuard-v14/tests/test_sim.py": {
+      "sha256": "1e7fc071fd4834cfeb7d7397b8ae4f3e700526d8ba16e7f6391bc763fc06e2ae",
+      "bytes": 1655
+    },
+    "EmbodiedGuard-v14/tests/test_state.py": {
+      "sha256": "277bd2fcf1bdab9d9abbdca506ca9889e1fa4ec2e132f79e7591fdf86da85ffd",
+      "bytes": 9260
+    },
+    "EmbodiedGuard-v14/tests/test_task_contract.py": {
+      "sha256": "5c97515b310449ef8e8d3703ad2082ab2fc9932d9d7cea8114dfa5581686ef41",
+      "bytes": 9507
+    },
+    "EmbodiedGuard-v14/tests/test_v14_regressions.py": {
+      "sha256": "b1c734f7864f4b59d1f40c4f68c5a90a023f40d8fc51876deccdfd63aebcf339",
+      "bytes": 3133
+    },
+    "EmbodiedGuard-v14/tests/test_v14_safety.py": {
+      "sha256": "29df8888261762808c6a25fba5af6b412c5e04851b4a95a1a9683e2ff2792037",
+      "bytes": 6136
+    },
+    "EmbodiedGuard-v14/tools/validate_shadow.py": {
+      "sha256": "28673d828eaf20635ed8945c86923a4c9f3469efe9ee6f1e1e40f88f1c95dfb1",
+      "bytes": 15586
+    },
+    "EmbodiedGuard-v14/候选版本复测说明.md": {
+      "sha256": "47c7f5661822de4da912d924ec03f5ee24349a10c2c2b848b1d7cb1dca62dd53",
+      "bytes": 4216
+    },
+    "prompt-plus.frozen.txt": {
+      "sha256": "3004d75f7247b038d2bec6434629de4331ed4a58b0012242db6fc079f2b91a58",
+      "bytes": 1977
+    },
+    "sources/movingai-public-maps-20261013/16room_000.map": {
+      "sha256": "efe1156993b2b96df1b23ce4f0f89d4c66b77051d9484efefa93899b141458af",
+      "bytes": 262693
+    },
+    "sources/movingai-public-maps-20261013/16room_000.scen": {
+      "sha256": "b1a17994cacca6a5c15bd08f439c1027d942e227d3dd59cf1b05d4456a3c367c",
+      "bytes": 108825
+    },
+    "sources/movingai-public-maps-20261013/32room_000.map": {
+      "sha256": "57fe06dadf5caa09c45e823521fc548398a1ebcc1c7dd89ffcee049146b88db9",
+      "bytes": 262693
+    },
+    "sources/movingai-public-maps-20261013/32room_000.scen": {
+      "sha256": "a0a7b77e0a3d4ae16c4de2ad46978da02fb3313e0cacbb0a6166b6a2f35e57e1",
+      "bytes": 115217
+    },
+    "sources/movingai-public-maps-20261013/ATTRIBUTION.txt": {
+      "sha256": "b4e2619e4e429f375376112757746d99d1775b484adba831c2c2e7746d828a9d",
+      "bytes": 649
+    },
+    "sources/movingai-public-maps-20261013/manifest.json": {
+      "sha256": "f89d983069693add3e9f38d91919e6b53ea450cd866ac262f3732f59f74ae127",
+      "bytes": 5847
+    },
+    "sources/movingai-public-maps-20261013/maze512-16-0.map": {
+      "sha256": "7fd1b43f296738c093cbd5f589b1414fbb8cc35f7d7462fd188c21fa3f99aac3",
+      "bytes": 262693
+    },
+    "sources/movingai-public-maps-20261013/maze512-16-0.scen": {
+      "sha256": "4a0d78bdcf46ddae03df806a28130ab867261844a5ca892b657aeb9f5b07f0f7",
+      "bytes": 525896
+    }
+  },
+  "supplemental_test_fixture": {
+    "path": "reports/agent-validation/20261011-task-contract-r1/task_policy.py",
+    "sha256": "fe7afde55f877910b762a75d62424681ec0c18bfadf91d279af1fba3c2b25d1f",
+    "origin": "local historical task-contract test comparator, absent from r3 ZIP; added only to satisfy the original test import"
+  }
+}

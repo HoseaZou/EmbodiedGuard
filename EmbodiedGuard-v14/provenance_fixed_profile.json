@@ -1,0 +1,12 @@
+{
+  "candidate": "EmbodiedGuard-v4",
+  "base": "EmbodiedGuard-v3 frozen at ccaa3bb",
+  "source_manifest": "../reports/agent-validation/20261011-efficiency-r1/source-candidate.json",
+  "observed_failure": "trial-13-candidate-stale-r2 omitted max_sim_seconds during resumed execution; native rejection persisted as schema_invalid after task completion",
+  "preserved_failed_trial": true,
+  "compact_execution_contract": "Selecting the disclosed execute_route tool requests immutable max_sim_seconds=15 and inspect_on_arrival=true; supplied constants must match; raw and effective arguments separately recorded",
+  "full_execution_contract": "Original explicit max_sim_seconds and optional inspection mode remain available",
+  "unchanged_modules": ["control.py", "planning.py", "state.py", "safety.py", "sim.py", "execution.py", "timing.py", "recovery.py"],
+  "independent_guards": ["unknown/stale state refusal", "collision/boundary/speed checks", "time admission and actual idle charging", "three-action recovery cap", "actual arrival and stopped inspection", "historical receipt cannot override final verify"],
+  "validation_scope": "synthetic_2d_kinematics_only"
+}

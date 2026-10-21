@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-21",
+  "allowed_modifications": [
+    {
+      "path": "EmbodiedGuard-v14/final-launch-manifest.json",
+      "original_sha256": "8e773c73641225b2c515008e9af3664d8d95cea14c433a99b777fb416c9e4352",
+      "public_sha256": "e1e492b9e00179dec344486ece00570ab245acf53936a14a3f423d83ffa5dcfa",
+      "reason": "Public documentation, privacy redaction, retired workstation PS1, or corresponding launch fingerprint"
+    },
+    {
+      "path": "EmbodiedGuard-v14/provenance_control.json",
+      "original_sha256": "75e5e576232185bbd0631097894a2ab51947a2e6ee0a8a9b195dd020190c37e0",
+      "public_sha256": "4c7779979fe080a71550eceee2f109c8062ebfce375e531b4476b1f1c3b40447",
+      "reason": "Public documentation, privacy redaction, retired workstation PS1, or corresponding launch fingerprint"
+    },
+    {
+      "path": "EmbodiedGuard-v14/README-v5.txt",
+      "original_sha256": "eb68a4526e4e82e6ed7dce91ec0f7d14461d6941935736e5e930cd58cd061337",
+      "public_sha256": "767ef827bf55e6caa249349aca451cf26be39db56e6c61a5d0c5d45fa22b05c4",
+      "reason": "Public documentation, privacy redaction, retired workstation PS1, or corresponding launch fingerprint"
+    },
+    {
+      "path": "EmbodiedGuard-v14/README.md",
+      "original_sha256": "d235bcfd3a47a11654fac620155d6f205fd0dd6190e39e446e1f2a59f2df8808",
+      "public_sha256": "5bba3ba796b725f6a64ffdcb962260433355c8000b17d25f3aa4688ed7d5833f",
+      "reason": "Public documentation, privacy redaction, retired workstation PS1, or corresponding launch fingerprint"
+    },
+    {
+      "path": "EmbodiedGuard-v14/scripts/activate-candidate.ps1",
+      "original_sha256": "389ec81bc71d23c88ebf8fbf27db19588deee77332514397da922380dbac4365",
+      "public_sha256": "1ce577ed03ad50f72f6c08454512763dfb3ef31666551e8ea738a1e36a2eb9ba",
+      "reason": "Public documentation, privacy redaction, retired workstation PS1, or corresponding launch fingerprint"
+    },
+    {
+      "path": "EmbodiedGuard-v14/候选版本复测说明.md",
+      "original_sha256": "47c7f5661822de4da912d924ec03f5ee24349a10c2c2b848b1d7cb1dca62dd53",
+      "public_sha256": "bfef76e9bda775f40264754ca3511e14ed1c3fb7a4b1ec6ac461c69834fa1259",
+      "reason": "Public documentation, privacy redaction, retired workstation PS1, or corresponding launch fingerprint"
+    }
+  ],
+  "original_python_files_unchanged": true,
+  "excluded": [
+    "runtime outputs",
+    "all native account-bearing diagnostic ZIPs",
+    "historical reports except supplemental test fixture",
+    "videos and voice assets",
+    "unneeded generalization data"
+  ],
+  "new_files": "See public-files.json minus submitted-files.json; test fixture separately attributed"
+}

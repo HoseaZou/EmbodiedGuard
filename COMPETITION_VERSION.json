@@ -1,0 +1,19 @@
+{
+  "project": "EmbodiedGuard",
+  "release_identity": "competition-v14",
+  "competition": "2026江苏省AI+科学与工程创新实践黑客松（高校组）",
+  "team": "停下吃花生",
+  "school": "南京航空航天大学",
+  "group": "本科生组",
+  "entry_id": "U308",
+  "code_version": "V14",
+  "delivery_revision": "r3",
+  "public_preparation_date": "2026-10-21",
+  "archive_filename": "本科生组-U308-停下吃花生-邹鸿生.zip",
+  "archive_sha256": "e20e22a2266a29f97d331fcc7955cbacfc5c299432cd7525ff72f867520b7eb7",
+  "original_archive_is_not_distributed": true,
+  "supported_entry": "EmbodiedGuard-v14/run_checked_final_mcp.py",
+  "publication_scope": "submission-source release with documentation, privacy and packaging edits; no original Python algorithm edits",
+  "suggested_git_tag": "competition-v14",
+  "git_tag_created": false
+}

@@ -1,0 +1,11 @@
+{
+  "source": "hash-verified frozen EmbodiedGuard-v8; original v8 is preserved",
+  "base_manifest": "../reports/implementation/20261012-efficiency-v8/source-candidate.json",
+  "change": "exact explicitly selected active-route reuse in the optional navigation transport",
+  "execution_owner": "original ExecutionBundle and Mission.execute_route",
+  "automatic_alternative_or_recovery": false,
+  "safety_permission_from_cache_or_prediction": false,
+  "runtime_model": "Agnes via official AGH; calls require separate native validation",
+  "development_assistance": "Codex-assisted implementation and verification, disclosed separately from runtime model",
+  "validation_scope": "synthetic_2d_kinematics_only"
+}

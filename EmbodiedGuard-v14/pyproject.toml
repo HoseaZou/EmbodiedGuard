@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embodiedguard"
+version = "0.1.0"
+description = "Auditable Ackermann inspection simulation and bounded recovery tools"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+public = ["numpy>=1.26,<3"]
+
+[project.scripts]
+embodiedguard = "embodiedguard.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["embodiedguard*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"
+

@@ -1,0 +1,109 @@
+{
+  "source_repository": "<competition-workspace>\\bev_occupancy_pilot_20260911",
+  "source_commit": "564517e8041767f904e13369d0a20741e6d59db3",
+  "files": [
+    {
+      "source_path": "src/route/route_manager.py",
+      "source_sha256": "e963c8bafaba224e68f363bdb83f271992b2da43d504287462c94e09b09a39e9",
+      "derived_path": "embodiedguard/legacy/route/route_manager.py",
+      "derived_sha256": "e963c8bafaba224e68f363bdb83f271992b2da43d504287462c94e09b09a39e9",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/route/waypoint_queue.py",
+      "source_sha256": "be0ea85c8f9bc144267a11d99b5095cdbaf1e677280618aab182575b86106ebe",
+      "derived_path": "embodiedguard/legacy/route/waypoint_queue.py",
+      "derived_sha256": "be0ea85c8f9bc144267a11d99b5095cdbaf1e677280618aab182575b86106ebe",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/route/coordinate_adapter.py",
+      "source_sha256": "d946938188f2cf1e5b9d375f27ce0a5a7c2641bc78a007a184e2c30f2b8f918e",
+      "derived_path": "embodiedguard/legacy/route/coordinate_adapter.py",
+      "derived_sha256": "d946938188f2cf1e5b9d375f27ce0a5a7c2641bc78a007a184e2c30f2b8f918e",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/route/route_types.py",
+      "source_sha256": "c11707e1a6b242ee764e27503169ae4867c9e37a51a4cecd55eebf8325e5abdf",
+      "derived_path": "embodiedguard/legacy/route/route_types.py",
+      "derived_sha256": "c11707e1a6b242ee764e27503169ae4867c9e37a51a4cecd55eebf8325e5abdf",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/backend/route_control_adapter.py",
+      "source_sha256": "1c069b88c3953f0c4f31b150ab358fcdd30a3e8c290d705f910c5bddb2d83488",
+      "derived_path": "embodiedguard/legacy/backend/route_control_adapter.py",
+      "derived_sha256": "1c069b88c3953f0c4f31b150ab358fcdd30a3e8c290d705f910c5bddb2d83488",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/backend/route_context.py",
+      "source_sha256": "174694aeb373a11acd585f2efc0fcd768da73ea647b96505d8f734fce5a893e4",
+      "derived_path": "embodiedguard/legacy/backend/route_context.py",
+      "derived_sha256": "174694aeb373a11acd585f2efc0fcd768da73ea647b96505d8f734fce5a893e4",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/backend/carla_pid_controller.py",
+      "source_sha256": "6f5f2e9338b868655c8b74973690666c042acd6d68047e5cb5918b54de6e19b4",
+      "derived_path": "embodiedguard/legacy/backend/carla_pid_controller.py",
+      "derived_sha256": "6c888346a3b771c61cb4e7210e5dd1428ae9a1b183df777b3df2438c13afc0df",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/backend/carla_control_bridge.py",
+      "source_sha256": "002e59786ffece43eb541d139ac250461a5bdbd1aca5bd440f6677cd1c8f47c7",
+      "derived_path": "embodiedguard/legacy/backend/carla_control_bridge.py",
+      "derived_sha256": "002e59786ffece43eb541d139ac250461a5bdbd1aca5bd440f6677cd1c8f47c7",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    },
+    {
+      "source_path": "src/pipeline/global_route_runtime_adapter.py",
+      "source_sha256": "dd849bf918a20e0b6fd8440af065942bca2e8d5270b742c5a9e40b83b1567680",
+      "derived_path": "embodiedguard/legacy/pipeline/global_route_runtime_adapter.py",
+      "derived_sha256": "a79f872c996907574dfcf164c0b532a9f7796a4c358335ceb90832fe00698a76",
+      "changes": [
+        "Absolute src imports changed to isolated embodiedguard.legacy namespace; LF output. Algorithm unchanged."
+      ]
+    }
+  ],
+  "adapter": "embodiedguard/control.py",
+  "scope": "Pure Python route/PID subset. No model, CARLA runtime or vehicle dynamics imported.",
+  "adapter_sha256": "3a92a6c01d4add4cd9cd6dc34d1c6aaf670d1e8b5d4a06df2bd56ae4735b6ba4",
+  "adaptations": [
+    "World y and yaw reflected at the legacy route seam; right-positive PID steer negated.",
+    "Small-vehicle route lookahead/preview/goal config only; original algorithms unchanged.",
+    "Deterministic route tangent and signed CTE supplied as candidate hints; no learned model.",
+    "PID lateral gains (0.35,0.01,0.03), yaw gains (1.4,0.02,0.03); speed PID unchanged.",
+    "Remaining-route speed envelope 0.65*max(remaining-0.25,0), zero at <=0.33m; mission verifier owns success.",
+    "Strict finite numeric/boolean, frame/time validation; reset reconstructs route and PID state.",
+    "reset_controller() clears only PID feedback after a bounded external stop; route projection cursor, adapter, frame and time are retained.",
+    "2026-10-10: In ordinary tracking outside terminal/deviation capture, drop only leading behind-ego preview samples when real forward samples remain. Keep signed CTE, tangent, progress and all safety limits unchanged; all-behind previews remain rejected."
+  ],
+  "verification": "2026-10-09: all 9 source and derived hashes checked; AST equal after reversing absolute import namespace changes; 8 public control interface tests passed including mid-route stop/resume.",
+  "adapter_revision_history": [
+    {
+      "date": "2026-10-10",
+      "before_sha256": "40a3160c6f2ce629b69575155c98b9b31b92e58e4a4d9690a7f757f24db3351b",
+      "after_sha256": "3a92a6c01d4add4cd9cd6dc34d1c6aaf670d1e8b5d4a06df2bd56ae4735b6ba4",
+      "evidence": "../reports/implementation/20261010-trajectory-upgrade/segment-diagnosis/诊断与修复.md"
+    }
+  ]
+}

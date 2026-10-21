@@ -1,0 +1,133 @@
+{
+  "downloaded_utc": "2026-10-13T00:41:26.672269+00:00",
+  "protocol_sha256": "124afb3635473d84e1fb522fd9493a5553782a5008676779158db73cba08a75c",
+  "database": "Moving AI Lab 2D Grid Benchmarks",
+  "source_url": "https://www.movingai.com/benchmarks/grids.html",
+  "license": "Open Data Commons Attribution License (ODC-By) v1.0",
+  "license_url": "https://opendatacommons.org/licenses/by/1-0/",
+  "citation": "N. Sturtevant, Benchmarks for Grid-Based Pathfinding, IEEE Transactions on Computational Intelligence and AI in Games 4(2), 144-148, 2012.",
+  "contents": [
+    {
+      "family": "room",
+      "name": "16room_000",
+      "files": [
+        {
+          "kind": "map",
+          "url": "https://www.movingai.com/benchmarks/room/16room_000.map.zip",
+          "archive": "16room_000.map.zip",
+          "archive_sha256": "62dc4e6d0842a6eb496334e32e2f8da575f8c74cdd5d775a6cdd01e11de1a9c3",
+          "archive_bytes": 5052,
+          "original_member": "16room_000.map",
+          "path": "16room_000.map",
+          "sha256": "efe1156993b2b96df1b23ce4f0f89d4c66b77051d9484efefa93899b141458af",
+          "bytes": 262693,
+          "modification": "Raw content unchanged; canonical local filename recorded separately from archive member"
+        },
+        {
+          "kind": "scenario",
+          "url": "https://www.movingai.com/benchmarks/room/16room_000.map-scen.zip",
+          "archive": "16room_000.map-scen.zip",
+          "archive_sha256": "78044bdcc8dde30f1a29b7b38bd8889524c4d32199a551cc3b64d7b9a05efbdb",
+          "archive_bytes": 26039,
+          "original_member": "16room_000.map.scen",
+          "path": "16room_000.scen",
+          "sha256": "b1a17994cacca6a5c15bd08f439c1027d942e227d3dd59cf1b05d4456a3c367c",
+          "bytes": 108825,
+          "modification": "Raw content unchanged; canonical local filename recorded separately from archive member"
+        }
+      ]
+    },
+    {
+      "family": "room",
+      "name": "32room_000",
+      "files": [
+        {
+          "kind": "map",
+          "url": "https://www.movingai.com/benchmarks/room/32room_000.map.zip",
+          "archive": "32room_000.map.zip",
+          "archive_sha256": "6d0ba12824eeb5e466ce21d7980ff79d773f99521ff1d2c6eed565bbf77a81ff",
+          "archive_bytes": 2982,
+          "original_member": "32room_000.map",
+          "path": "32room_000.map",
+          "sha256": "57fe06dadf5caa09c45e823521fc548398a1ebcc1c7dd89ffcee049146b88db9",
+          "bytes": 262693,
+          "modification": "Raw content unchanged; canonical local filename recorded separately from archive member"
+        },
+        {
+          "kind": "scenario",
+          "url": "https://www.movingai.com/benchmarks/room/32room_000.map-scen.zip",
+          "archive": "32room_000.map-scen.zip",
+          "archive_sha256": "4b46cd2892e7099fc606fde0d545798fc8b84ca1d91b3da0e4df776c9fb501ec",
+          "archive_bytes": 27750,
+          "original_member": "32room_000.map.scen",
+          "path": "32room_000.scen",
+          "sha256": "a0a7b77e0a3d4ae16c4de2ad46978da02fb3313e0cacbb0a6166b6a2f35e57e1",
+          "bytes": 115217,
+          "modification": "Raw content unchanged; canonical local filename recorded separately from archive member"
+        }
+      ]
+    },
+    {
+      "family": "maze",
+      "name": "maze512-16-0",
+      "files": [
+        {
+          "kind": "map",
+          "url": "https://www.movingai.com/benchmarks/maze/maze512-16-0.map.zip",
+          "archive": "maze512-16-0.map.zip",
+          "archive_sha256": "46250f484e63621e9ebceec5593e7ef35d96c330fbe9d9850b1b3f1ff16a349f",
+          "archive_bytes": 3866,
+          "original_member": "maze512-16-0.map",
+          "path": "maze512-16-0.map",
+          "sha256": "7fd1b43f296738c093cbd5f589b1414fbb8cc35f7d7462fd188c21fa3f99aac3",
+          "bytes": 262693,
+          "modification": "Raw content unchanged; canonical local filename recorded separately from archive member"
+        },
+        {
+          "kind": "scenario",
+          "url": "https://www.movingai.com/benchmarks/maze/maze512-16-0.map-scen.zip",
+          "archive": "maze512-16-0.map-scen.zip",
+          "archive_sha256": "1ee99af97ef5ded4abc0d8e62b511850c75ed9b1abbc237137479df1a9891843",
+          "archive_bytes": 121912,
+          "original_member": "maze512-16-0.map.scen",
+          "path": "maze512-16-0.scen",
+          "sha256": "4a0d78bdcf46ddae03df806a28130ab867261844a5ca892b657aeb9f5b07f0f7",
+          "bytes": 525896,
+          "modification": "Raw content unchanged; canonical local filename recorded separately from archive member"
+        }
+      ]
+    }
+  ],
+  "source_pages": [
+    {
+      "url": "https://www.movingai.com/benchmarks/grids.html",
+      "path": "source-benchmark.html",
+      "sha256": "f94d2e9d02ca15f434accbdce4bc3d02fafebc5500d4b6e0403a1130d5d470e0",
+      "bytes": 9755
+    },
+    {
+      "url": "https://www.movingai.com/benchmarks/formats.html",
+      "path": "source-format.html",
+      "sha256": "ffb35ab460035558e946c1bb2ec87812780dc64a62c5ec10b8cb1a1d83513a33",
+      "bytes": 3012
+    },
+    {
+      "url": "https://opendatacommons.org/licenses/by/1-0/",
+      "path": "source-license.html",
+      "sha256": "dc8eaff19367a46e0ec59a0a9a1124caf213e12f1ec496b5e123c9fbbbafeb16",
+      "bytes": 46288
+    },
+    {
+      "url": "https://www.movingai.com/benchmarks/maze/index.html",
+      "path": "source-maze.html",
+      "sha256": "4d0aad70698885f8f51438f1fe5e54d51334158abd37423bcc31a79c291ec904",
+      "bytes": 30714
+    },
+    {
+      "url": "https://www.movingai.com/benchmarks/room/index.html",
+      "path": "source-room.html",
+      "sha256": "f31b363780666da6c35e0ad6fc5bec1c605f0fe68c8046d8da3258b0c28b8b6a",
+      "bytes": 20154
+    }
+  ]
+}

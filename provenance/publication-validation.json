@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-21",
+  "release": "competition-v14",
+  "original_code_changed": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pytest": "9.1.1",
+  "install": {
+    "editable_install_passed": true,
+    "pip_check_passed": true,
+    "venv_uses_system_site_packages": true
+  },
+  "regression": {
+    "passed": 268,
+    "subtests_passed": 87,
+    "failed": 0,
+    "skipped": 0,
+    "seconds": 178.73
+  },
+  "fixed_policy_demo": {
+    "task_success": true,
+    "stopping_verified": true,
+    "sim_time_sec": 45.799999999999535,
+    "metrics": {
+      "collisions": 0,
+      "boundary_violations": 0,
+      "speed_violations": 0,
+      "path_length_m": 36.08597843370649,
+      "safety_interventions": 1,
+      "executions": 4,
+      "cte_rmse_m": 0.008281716365714521,
+      "cte_p95_m": 0.000818438839604962
+    },
+    "decision_source": "fixed_recovery",
+    "validation_scope": "synthetic_2d_kinematics_only"
+  },
+  "mcp_protocol": {
+    "passed": true,
+    "tools": 6,
+    "motion_actions": 0,
+    "model_calls": 0
+  },
+  "git_roundtrip": {
+    "core_autocrlf": true,
+    "verified": true
+  },
+  "new_agnes_model_calls": 0,
+  "historical_competition_samples_added": 0,
+  "github_published": false,
+  "remote_ci_executed": false
+}

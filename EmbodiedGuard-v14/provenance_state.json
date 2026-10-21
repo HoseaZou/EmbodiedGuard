@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "recorded_date": "2026-10-09",
+  "classification": "selective adaptation of history semantics; new strict observation interface",
+  "source": {
+    "path_relative_to_hackathon": "sources/raval_submission_20261009/docker-source/rootfs/opt/raval/runtime/src/sensors/observation_time.py",
+    "sha256": "08e5694a7bdb6b6862ceaa83a5fbdaba2c60d153e207fdc734be88b42854b974",
+    "symbols": [
+      "exact_ego_history",
+      "EgoHistoryBuffer",
+      "MAX_INTERPOLATION_GAP_SEC"
+    ],
+    "identity_note": "Extracted Docker source; not claimed to be a Git descendant of the frozen legacy repository."
+  },
+  "derived": {
+    "path_relative_to_hackathon": "EmbodiedGuard/embodiedguard/state.py",
+    "sha256": "e271a7361fa68889c297e2e6770ee9af426bd1039bc7aab35bdbbd49416c66dc"
+  },
+  "tests": {
+    "path_relative_to_hackathon": "EmbodiedGuard/tests/test_state.py",
+    "sha256": "277bd2fcf1bdab9d9abbdca506ca9889e1fa4ec2e132f79e7591fdf86da85ffd"
+  },
+  "retained_policy": [
+    "Prefer actual observed history samples",
+    "Interpolate only between already observed records with gap at most 0.11 seconds",
+    "Missing history is explicit; no nearest-neighbour fill or repeated-current pose"
+  ],
+  "changes": [
+    "Standalone standard-library interface, without CARLA or model imports",
+    "Strict numbers reject bool, string, NaN and infinity",
+    "Explicit episode reset replaces implicit reset on time rollback",
+    "Monotonic observation, receipt and query clocks",
+    "Latest-frame duplicate is idempotent and cannot refresh sensor age",
+    "Unknown or expired observation cannot be consumed as free space",
+    "Shortest-angle yaw interpolation; motion history never fabricates obstacle state",
+    "Deep-copy input and output ownership",
+    "Bounded 256-observation history",
+    "Time comparison tolerance is 1e-9 seconds"
+  ],
+  "validation": {
+    "pytest": "7 passed, 81 subtests passed",
+    "native_python_unittest": "7 tests passed",
+    "claims_excluded": [
+      "vehicle dynamics validation",
+      "robot hardware verification",
+      "sensor authenticity proof",
+      "Agnes model participation"
+    ]
+  }
+}

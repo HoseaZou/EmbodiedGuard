@@ -1,0 +1,25 @@
+EmbodiedGuard v14 最终统一入口：run_checked_final_mcp.py
+团队：停下吃花生｜本科生组｜南京航空航天大学
+
+公开地图巡检到达：
+python run_checked_final_mcp.py --mode public --map maze512-16-0 --line 143 --scale 0.5 --fault none --output ../runtime_data/demo-v14
+观测故障恢复：
+python run_checked_final_mcp.py --mode public --map maze512-16-0 --line 142 --scale 0.5 --fault freeze_once --output ../runtime_data/stale-v14
+原三目标巡检演示：
+python run_checked_final_mcp.py --mode inspection --scenario blocked --output ../runtime_data/inspection-v14
+
+AGH 的 executable 填你实际使用的 Python；args 使用上述脚本绝对地址和参数，不填 "python" 命令名。
+安装项目可选依赖：python -m pip install -e ".[public,test]"。
+使用本机已有依赖即可运行；不能把工具日志中的 model_call_verified=false 当作平台真实模型不存在。
+模型原生调用与权限的验证见报告中的 AGH sidecar。费用未经核对时保留 null。
+
+冻结的 v13 与 v14 导航核心保留。最终入口增加独立来源预检，并在首帧前生成不含故障名称的 episode_id；
+全局搜索失败会进入 assessed_routes，避免已尝试的 global 仍被列为 untried。
+来源保留的旧 run_checked_mcp.py 使用 v13 指纹；本候选统一由 run_checked_final_mcp.py 启动。
+
+机器人仍是合成二维前向 Ackermann，安全占位直径 1.14m；尺度、初始朝向为实验假设。
+人工公开地图结果不能证明真实感知、温度检测、硬件安全、全局最优或 Agent 优于强规则。
+旧 inspect 温度来自 synthetic_fixture；公开地图 inspect 只验证真实仿真到达和停稳。
+数据来源：Moving AI Lab 2D Grid Benchmarks，ODC-By v1.0，具体署名与原始文件在同级 sources 目录。
+
+完整报告：../reports/experiments/20261013-v14-optimization-r1/优化修复与验证报告.txt
