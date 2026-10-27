@@ -19,24 +19,24 @@
       "bytes": 877
     },
     "docs/AGH-MCP.md": {
-      "sha256": "c75b0610a0f76920bb52bcf250d53c6fbf6fd2dd3c8fac898aec8f1e22cf2d81",
-      "bytes": 2637
+      "sha256": "227d6f73ecc61055b8990922fca290c37350891c9ba08146ba17a67136273a61",
+      "bytes": 2811
     },
     "docs/ARCHITECTURE.md": {
-      "sha256": "7d0211e52e3cda6f1591f4d02a0b6f40f9a441c9bb738cac1321bd2331be6279",
-      "bytes": 2361
+      "sha256": "31d38d24f174d0acf885c05bb7f36c89c6ae96a402147d163c55ff5450325328",
+      "bytes": 2874
     },
     "docs/COMPETITION-RELEASE.md": {
       "sha256": "e7ab7d05a4ca9db0b8442937e4f92aa42c95082816e27a08e4eebae6e51589ba",
       "bytes": 2327
     },
     "docs/PUBLICATION.md": {
-      "sha256": "563d9c1770dd4ee221ea52cd4c54caccb6ae12692151150d5f6eff686f6dd957",
-      "bytes": 1228
+      "sha256": "45943616e551ebf4aae2af38e52e12ee8af4a80514424cd6e370af8298f90d9c",
+      "bytes": 2802
     },
     "docs/VALIDATION.md": {
-      "sha256": "eae6418e8ae07b88b25f0538d1d44824fa01e7090210551ff4b385abf97e14fa",
-      "bytes": 1936
+      "sha256": "e9373da1bd06cd8482be14b7df28d23d609fab16158ae91b96341cf91d934fd3",
+      "bytes": 2187
     },
     "EmbodiedGuard-v14/.gitignore": {
       "sha256": "b365a7bcadd69fe747a498c0de8d8525ad0e28490642ce9c08808caa2bf5a3d4",
@@ -467,8 +467,8 @@
       "bytes": 19324
     },
     "README.md": {
-      "sha256": "494ec5c586360a26afab0a4f538dec78868e18c8c9d56455205160035dd8b1f3",
-      "bytes": 6313
+      "sha256": "fd6faf0975131e50335243224d3a3fbe8be60c3e02deda265e270eac498b67ee",
+      "bytes": 12825
     },
     "reports/agent-validation/20261011-task-contract-r1/task_policy.py": {
       "sha256": "fe7afde55f877910b762a75d62424681ec0c18bfadf91d279af1fba3c2b25d1f",
@@ -521,6 +521,27 @@
     "tools/verify_release.py": {
       "sha256": "7588d3d5febd088645ef9991d070c99d3b841fbe0ecc515db4ff92bda8468f77",
       "bytes": 5345
+    },
+    "README.zh-CN.md": {
+      "sha256": "56de1e017537b2076cb6b2100c3f55c06421311940aca6ce4727e352ee454fe2",
+      "bytes": 11578
+    },
+    "docs/ARCHITECTURE.en.md": {
+      "sha256": "166d5f4bb9d2b51dd010aa4b3340cb27f73b4950fe106c8b3a014ab3a237136d",
+      "bytes": 5742
+    },
+    "docs/DOCUMENTATION-UPDATES.md": {
+      "sha256": "c5a2ecf4c3778e5140e321acc8e10d8f6f40ad05f4c503fcf83b990f8283ab1f",
+      "bytes": 2277
+    },
+    "docs/INTEGRATION.md": {
+      "sha256": "29c68e279c834047bbd446337201450ac7065ba9d62f0401ed35140586eaae1d",
+      "bytes": 11757
+    },
+    "docs/INTEGRATION.zh-CN.md": {
+      "sha256": "e733c5553c69c43942918090fb3e25a98b76d80b79b3076fcfdf6cedcebcb743",
+      "bytes": 9821
     }
-  }
+  },
+  "documentation_updated": "2026-10-27"
 }

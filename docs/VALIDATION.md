@@ -19,4 +19,4 @@
 
 `tools/verify_release.py`检查公开文件集合、文件哈希、允许改动清单、原Python/地图/提示词一致性与所列敏感文本模式。它只能证明相对于清单的一致性，不提供第三方数字签名或任意秘密的绝对排除保证。
 
-GitHub Actions提供Windows/Ubuntu、Python 3.11的后续自动检查配置；尚未上传GitHub，不能把配置存在描述成远端CI已经通过。当前本地验收环境是上面列出的Windows/Python 3.12。
+首次公开发布已完成GitHub Actions验证：Windows/Ubuntu、Python 3.11均通过，见[原始CI运行](https://github.com/HoseaZou/EmbodiedGuard/actions/runs/39563319688)。此记录对应首次公开提交，不预先宣称后续提交通过；后续结果见[CI列表](https://github.com/HoseaZou/EmbodiedGuard/actions/workflows/verify.yml)。当前表格中的本地验收环境仍为上列Windows/Python 3.12，历史实验与后续文档更新不混计。

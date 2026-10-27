@@ -1,5 +1,7 @@
 # AGH运行参赛版本
 
+[English integration specification](INTEGRATION.md) · [中文完整集成规范](INTEGRATION.zh-CN.md) · [中文首页](../README.zh-CN.md)
+
 ## 1. 安装与账号
 
 先完成根README的Python安装。AGH从[官方仓库](https://github.com/AgnesAI-Labs/agnes-harness)安装并按其说明登录；使用你自己的账号配置模型。参赛原生会话使用`agnes-3.0-flash`，服务实际可用模型以账号为准。不要把Key放进本仓库。
@@ -22,7 +24,7 @@
 
 其中每一项均为独立参数。不要把整条shell命令塞进executable。输出需保持在仓库根目录内；启动入口会检查冻结源文件与地图指纹。stdio进程等待输入时没有网页界面，这是工具服务的正常行为。
 
-可允许的focused工具：`observe,navigate,reobserve,wait,stop,verify`。连接和权限通过AGH实际界面确认；不用全访问代替工具配置。AGH管理探测可能创建独立后端记录；正式任务须新建会话和新Mission进程，首次observe应为frame=0、原点、静止、无已完成目标。工具目录读取成功与任务执行成功应分别确认。
+可允许的focused工具：`observe,navigate,reobserve,wait,stop,verify`。连接和权限通过AGH实际界面确认；不用全访问代替工具配置。AGH管理探测可能创建独立后端记录；正式任务须新建会话和新Mission进程，首次observe应为frame=0、静止、无已完成目标。合成巡检从原点开始，公开地图的起点由所选地图场景决定。工具目录读取成功与任务执行成功应分别确认。
 
 旧三目标巡检请用`--mode inspection --scenario blocked --response-mode compact --interface-profile focused`替代公开地图参数。原温度数据是合成fixture。
 
